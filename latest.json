@@ -1,12 +1,12 @@
 {
-  "versionCode": 1,
-  "versionName": "0.0.1.beta",
-  "releaseNotes": "1. 首个 0.0.1.beta 公开测试版发布，重置版本号起始基线。\n2. 新增应用内检测更新、流式下载进度展示、SHA-256 与包名校验及系统安装器拉起功能。\n3. 包含音高调音器、人声音域分析、节拍器、和弦库与练耳模块。",
-  "publishedAt": "2026-11-13",
-  "apkUrl": "https://github.com/li-songbai/guitar-home-releases/releases/download/v0.0.1.beta/guitar-home-v0.0.1.beta-arm64-release.apk",
+  "versionCode": 2,
+  "versionName": "0.0.2.beta",
+  "releaseNotes": "1. 优化练声与音域测定轻声收音灵敏度：调整 ZCR 声压前置门槛（-44 dBFS）与人声阈值（0.28），启用开启/保持双迟滞能量与置信度门控并锁定底噪基线，改善轻声哼鸣、气声起音与唇颤音难以触发的问题。\n2. 修复练声界面与跟唱进度发顿：保持 86fps 后台 DSP/状态机全速结算的同时将 Compose UI 轨迹刷新节流至 ~35fps（离散状态零延迟直出），缩短跳音防抖延迟与示范音尾部回声冷却（150ms），并新增 6 帧唇颤微断豁免。\n3. 集成工作区当前节拍器、界面优化及单元测试回归验证。",
+  "publishedAt": "2026-11-14",
+  "apkUrl": "https://github.com/li-songbai/guitar-home-releases/releases/download/v0.0.2.beta/guitar-home-v0.0.2.beta-arm64-release.apk",
   "mirrorUrls": [],
-  "releasePageUrl": "https://github.com/li-songbai/guitar-home-releases/releases/tag/v0.0.1.beta",
-  "sha256": "7a7a0fc936e35c4431a4b0dd9607b6abbac1ec862f763790d2d060e4ec2aca36",
-  "fileSizeBytes": 34987329,
+  "releasePageUrl": "https://github.com/li-songbai/guitar-home-releases/releases/tag/v0.0.2.beta",
+  "sha256": "83b56d94e340c8c32efd87602b573e0242e72bb23cafbab803ccf1ae0cd70fd8",
+  "fileSizeBytes": 34987317,
   "forceUpdate": false
 }
