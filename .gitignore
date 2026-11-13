@@ -1,0 +1,12 @@
+# Do not commit binary release packages into Git branch history; attach them to GitHub Releases instead.
+*.apk
+*.ap_
+*.aab
+
+# Local-only release helper files (never commit or push to public repo)
+.release-token
+publish-local.ps1
+.env*
+
+.DS_Store
+Thumbs.db
